@@ -1,0 +1,52 @@
+# Dataset root directory relative to the yolov5 directory
+path: dataset
+# Train/val/test sets: specify directories, *.txt files, or lists
+train: images/train
+val: images/val
+test: images/test
+
+# Classes
+names:
+    0: Speed limit (20km/h)
+    1: Speed limit (30km/h)
+    2: Speed limit (50km/h)
+    3: Speed limit (60km/h)
+    4: Speed limit (70km/h)
+    5: Speed limit (80km/h)
+    6: End of speed limit (80km/h)
+    7: Speed limit (100km/h)
+    8: Speed limit (120km/h)
+    9: No overtaking
+    10: No overtaking by vehicles over 3.5 t
+    11: Intersection ahead – right-of-way only for this intersection
+    12: Priority road – right-of-way on all following intersections
+    13: Yield
+    14: Stop
+    15: No vehicles of any kind permitted
+    16: No vehicles over 3.5 t permitted
+    17: No entry
+    18: Danger
+    19: Curve (left)
+    20: Curve (right)
+    21: Double curve (first left)
+    22: Uneven road
+    23: Slipperiness when road is wet or dirty
+    24: One-sided road narrowing (right)
+    25: Roadworks
+    26: Traffic signals
+    27: Pedestrians
+    28: Children
+    29: Cycles
+    30: Slipperiness due to snow or ice
+    31: Wild animals
+    32: End of all restrictions
+    33: Turn right ahead
+    34: Turn left ahead
+    35: Go straight ahead
+    36: Go straight or turn right ahead
+    37: Go straight or turn left ahead
+    38: Pass on the right
+    39: Pass on the left
+    40: Roundabout
+    41: End of no overtaking
+    42: End of no overtaking by vehicles over 3.5 t
