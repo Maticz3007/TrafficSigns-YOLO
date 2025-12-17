@@ -1,6 +1,7 @@
 from ultralytics import YOLO
 
-model = YOLO("runs/detect/train9/weights/best.pt")
+model = YOLO("runs/detect/87epochsnoflip/weights/best.pt")
 
-results = model("randomphotos\\13.png", conf=0.5, device=0)
+results = model("randomphotos\\13.png", conf=0.25, verbose=True, device=0)
 results[0].save("output.jpg")
+
